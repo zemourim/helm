@@ -1,4 +1,4 @@
 replicas: 3
 
 image:
-  tag: 4.0.0-SNAPSHOT
+  tag: 5.0.1-SNAPSHOT
