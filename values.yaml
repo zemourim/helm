@@ -1,0 +1,10 @@
+image:
+  repository: "ghcr.io/zemourim/spring-petclinic"
+
+replicas: 5
+
+app:
+  contextPath: ""
+
+service:
+  port: 8080

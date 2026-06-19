@@ -1,0 +1,11 @@
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: clinic-service
+spec:
+  selector:
+    app: clinic-front
+  ports:
+  - port: {{ .Values.service.port }}
+    targetPort: 8080

@@ -1,0 +1,7 @@
+apiVersion: v2
+name: petclinic
+description: A Helm chart for Pet Clinic
+icon: https://raw.githubusercontent.com/spring-projects/spring-petclinic/main/src/main/resources/static/resources/images/spring-pivotal-logo.png
+type: application
+version: 0.1.2
+appVersion: "4.0.0-SNAPSHOT"
